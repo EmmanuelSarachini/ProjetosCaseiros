@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.
+</div>
+<h1 class="h1">Bem vindos à página de teste!</h1>
+<body>
+<ul>
+  <li class="li">Teste de Get e apresentação em console</li>
+  Nome:
+  <input type="text" (keyup)="onNomeKeyUp($event)">
+  <button type="submit" (click)="getTeste()">Teste Get</button>
+</ul>
+</body>
+</div>
+<br>
+<br>
+-->
+<div style="text-align: center">
+  <h1 class="h1">Teste de crud!</h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a routerLink="create" routerLinkActive="active">Incluir registros</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
